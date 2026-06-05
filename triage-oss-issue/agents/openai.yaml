@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage OSS Issue"
+  short_description: "Turn noisy OSS issues into maintainer-ready triage notes."
+  default_prompt: "Use this skill to triage an open-source issue and produce labels, severity, reproduction questions, and a maintainer response."
