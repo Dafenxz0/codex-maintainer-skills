@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Release Brief"
+  short_description: "Create release notes and maintainer checklists from git history."
+  default_prompt: "Use this skill to prepare release notes, risk notes, and a release checklist from a repository diff or git range."
