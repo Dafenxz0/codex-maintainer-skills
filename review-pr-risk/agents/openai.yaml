@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review PR Risk"
+  short_description: "Assess PR risk and missing verification."
+  default_prompt: "Use this skill to review a pull request like a maintainer, focusing on regressions, risk, and tests."
