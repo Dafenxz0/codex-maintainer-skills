@@ -60,6 +60,22 @@ Copy-Item -Recurse triage-oss-issue,review-pr-risk,prepare-release-brief "$env:U
 
 Restart Codex after installing new skills.
 
+## Validate
+
+List the skills included in the pack:
+
+```bash
+python scripts/list_skills.py
+```
+
+Validate each skill with Codex's skill validator when available:
+
+```bash
+python path/to/quick_validate.py triage-oss-issue
+python path/to/quick_validate.py review-pr-risk
+python path/to/quick_validate.py prepare-release-brief
+```
+
 ## Design
 
 These skills are intentionally small. They give Codex maintainer-specific
