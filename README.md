@@ -68,6 +68,12 @@ List the skills included in the pack:
 python scripts/list_skills.py
 ```
 
+Print the inventory as JSON:
+
+```bash
+python scripts/list_skills.py --json
+```
+
 Validate each skill with Codex's skill validator when available:
 
 ```bash
